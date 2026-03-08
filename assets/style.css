@@ -1,0 +1,34 @@
+/* تغيير لون خلفية الموقع لرمادي فاتح جداً عشان الكروت البيضاء تبرز */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* تدوير حواف الكروت وإضافة ظل ناعم */
+.card {
+    border-radius: 15px !important;
+    border: none !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+    background-color: white;
+}
+
+/* تأثير الحركة (Hover) لما الماوس يقف على الكارت */
+.card:hover {
+    transform: translateY(-8px) !important;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* تجميل الـ Navbar (القائمة العلوية) */
+.navbar {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    font-weight: 600;
+}
+
+/* تجميل الأزرار */
+.btn {
+    border-radius: 8px !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
