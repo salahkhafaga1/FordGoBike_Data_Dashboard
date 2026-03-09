@@ -1,3 +1,11 @@
+---
+title: FordGoBike Dashboard
+emoji: 🚴‍♂️
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
 #  Ford GoBike Data Analysis & Interactive Dashboard
 
 ##  Project Overview
