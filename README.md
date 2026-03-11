@@ -25,5 +25,3 @@ This project is an end-to-end data analysis pipeline for the **Ford GoBike Syste
 3. Add the cleaned CSV file to the `data/` folder.
 4. Run the application: `python app.py`
 
-##  Author
-**Salah_Khafaga**
